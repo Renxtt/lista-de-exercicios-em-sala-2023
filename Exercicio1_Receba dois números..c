@@ -4,31 +4,41 @@
 #include <locale.h>
 #include  <time.h>
 
+/*1 - Receba dois nÃºmeros.
+	
+	Se o primeiro for 5 ou o segundo for 10 exiba: 5 ou 10
+	
+	SenÃ£o verifique se o segundo nÃºmero Ã© maior que o primeiro: Se sim exiba, Primeiro Ã© menor
+*/
+
+
 main(void){
+
+
 	setlocale(LC_ALL, "portuguese");
 	int nub, num;
 	
 	//Se o primeiro for 5 ou o segundo for 10 exiba: 5 ou 10
-	printf("Qual é o seu Primeiro Número?:");
+	printf("Qual Ã© o seu Primeiro NÃºmero?:");
 	scanf("%d", &num);
-	printf("Qual é o seu Segundo Número?:");
+	printf("Qual Ã© o seu Segundo NÃºmero?:");
 	scanf("%d", &nub);
-	//Senão verifique se o segundo número é maior que o primeiro:	
+	//SenÃ£o verifique se o segundo nÃºmero Ã© maior que o primeiro:	
 	if(num==5 || nub==10){
 		printf("5 ou 10");
 		//TODO
 	}else if(nub>=num){
-		printf("Primeiro é menor");
+		printf("Primeiro Ã© menor");
 		//TODO
 	}else if(nub<=num){
-		printf("Primeiro é maior");
+		printf("Primeiro Ã© maior");
 		//TODO
 	}
 
 
 	//Se sim exiba
 	
-	// Primeiro é menor
+	// Primeiro Ã© menor
 	
 	return 0;
 }
