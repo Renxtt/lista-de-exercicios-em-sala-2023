@@ -5,6 +5,15 @@
 #include  <time.h>
 #include <string.h>
 
+/*
+2 - Receba 3 n√∫meros: 
+	
+	Exiba a mensagem correspondente:
+	
+	Todos os n√∫meros s√£o iguais, se forem, caso n√£o sejam, exiba: Todos os n√∫meros s√£o diferentes
+	
+	E em seguida exiba os 3 n√∫meros de forma ordenada.
+*/
 
 int main(void){
 	setlocale(LC_ALL, "portuguese");
@@ -21,13 +30,13 @@ int main(void){
 	//printf("coloque o seu numero:");
 	//scanf("%d", &free);	
 	if(one==two&&two==free){
-		printf("%50s","Todos os n˙meros s„o iguais");
+		printf("%50s","Todos os n√∫meros s√£o iguais");
 		printf("\n%d", one);
 		printf("\n%d", two);
 		printf("\n%d", free);
 		//TODO
 	}else{
-		printf("%50s","Todos os n˙meros s„o diferentes");
+		printf("%50s","Todos os n√∫meros s√£o diferentes");
 		printf("\n%d", one);
 		printf("\n%d", two);
 		printf("\n%d", free);
@@ -66,13 +75,13 @@ int main(void){
 		one=rand() % 10+1;
 		two=rand() % 10+1;
 		if(one==two&&two==free){
-				printf("%50s","Todos os n˙meros s„o iguais");
+				printf("%50s","Todos os n√∫meros s√£o iguais");
 				printf("\n%d", one);
 				printf("\n%d", two);
 				printf("\n%d", free);
 				//TODO
 		}else{
-			printf("%50s","Todos os n˙meros s„o diferentes");
+			printf("%50s","Todos os n√∫meros s√£o diferentes");
 			//printf("\n%d", one);
 			//printf("\n%d", two);
 			//printf("\n%d", free);
